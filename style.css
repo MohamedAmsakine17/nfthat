@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "SloppyHand";
+  src: url("fonts/Sloppy-Hand.otf") format("truetype"); /* Adjust the path and format as needed */
+}
+
+.header-img,
+.slogan-img {
+  width: 100%;
+}
+
+/* --------------- */
+body {
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* --------------- */
+.header-title,
+.header-paragraph,
+.slogan-text,
+.gang-text,
+.contract-text {
+  font-family: "SloppyHand";
+}
+
+.header-title {
+  font-size: 120px;
+  font-weight: bold;
+  color: #7d5b3f;
+}
+
+.header-title .word-2 {
+  color: #53815c;
+}
+
+.header-title .word-1 {
+  color: #e79faa;
+}
+
+.header-paragraph,
+.links a {
+  color: #010101;
+}
+
+.header-paragraph {
+  font-size: 35px;
+}
+
+.links a {
+  font-size: 32.5px;
+  margin: 0 7.5px;
+}
+
+.links a:hover {
+  color: #53815c;
+}
+
+/* --------------- */
+.slogan-container {
+  background-color: #010101;
+}
+
+.slogan-text {
+  font-size: 44px;
+  color: white;
+  text-align: center;
+  padding: 0 15px;
+}
+
+/* --------------- */
+
+.gang {
+  margin: 40px 0;
+  border: 2px solid #010101;
+  border-left: 0;
+  border-right: 0;
+}
+
+.gang-img {
+  width: 100%;
+}
+
+.gang-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* --------------- */
+
+.contract {
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+.contract-text {
+  font-size: 38px;
+}
+
+/* --------------- */
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  transform: scale(0);
+  filter: blur(5px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hidden {
+    transition: all 1s;
+  }
+}
+
+.show {
+  filter: blur(0);
+  opacity: 1;
+  transform: scale(1);
+}
+
+.net1 {
+  transition-delay: 200ms;
+}
+.net2 {
+  transition-delay: 400ms;
+}
+.net3 {
+  transition-delay: 600ms;
+}
+
+.net4 {
+  transition-delay: 800ms;
+}
+.net5 {
+  transition-delay: 1000ms;
+}
+.net6 {
+  transition-delay: 1200ms;
+}
+.net7 {
+  transition-delay: 1400ms;
+}
+.net8 {
+  transition-delay: 1600ms;
+}
+
+.net9 {
+  transition-delay: 2000ms;
+}
